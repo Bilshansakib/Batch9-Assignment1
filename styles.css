@@ -51,6 +51,44 @@ header {
     width: 632px;
     height: 190px;
 
+}
+.content {
+    margin: 120px auto;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Inter;
+    /* gap: 120px; */
 
+}
+.off {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    color: red;
+}
+
+.deal {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: red;
+
+}
+.offer {
+    display: inline;
+    
+}
+.catgories {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #070211;
+}
+img {
+    margin: 48px 120px;
+    width: 802.9px ;
+    height: 500px ;
+    top: 1076px ;
+    left: 399px ;
 
 }
