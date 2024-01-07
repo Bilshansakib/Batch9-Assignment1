@@ -32,7 +32,7 @@ header {
     width: 47%;
     justify-content: center;
     align-items: center;
-    margin: ;
+    /* margin: ; */
 
 }
 .title {
@@ -104,5 +104,60 @@ img {
     background-repeat: no-repeat;
     justify-content: space-between;
     border-radius: 16px;
+    align-items: center;
+}
+.welcome {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
 
+}
+.welcome-title {
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0.11em;
+    /* text-align: left; */
+
+}
+.welcome-description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+.banner-img {
+    /* background: linear-gradient(#690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC); */
+    max-width: 319.83px ;
+    height: 464.66px ;
+    top: 1764.11px ;
+    left: 1002.17px ;
+    padding: 0.01px, 0px, 0px, 0px ;
+
+}
+.invitation .banner-img img {
+    width: 79%;
+    max-width: 319px;
+    vertical-align: middle;
+}
+button:hover{
+    background-color: hsl(29, 82%, 56%);
+    cursor: pointer;
+    transition: all 1s;
+}
+.join-now {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
 }
