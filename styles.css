@@ -158,6 +158,7 @@ button:hover{
     transition: all 1s;
 }
 .join-now {
+    border: none;
     margin: 48px 562px 0px 32px;
     width: 103px;
     height: 24px;
@@ -216,9 +217,10 @@ span {
     color: red;
 }
 .button {
+    color: #fff;
     margin: 25px;
-    width: Hug (167px);
-    height: Hug (56px);
+    /* width: Hug (167px);
+    height: Hug (56px); */
     top: 2732px;
     left: 716px;
     padding: 16px, 32px;
@@ -243,6 +245,94 @@ span {
     text-align: center;
 
 }
+
+/* NEW-BEST-OFFER-section */
+.new-best-offer-section {
+    margin: 140px;
+    max-width: 1600px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+
+}
+.best-offer-title {
+    align-items: center;
+    display: inline-block;
+    gap: 22px;
+
+}
+.offer-title {
+    color: #FF0000;
+}
+.coming-soon {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.new-offer-description {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.ellipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.photo-ellipse {
+    padding: 30px;
+    width: 463px;
+    height: 463px;
+    /* top: 3018px;
+    left: 603px;
+    border: 15px; */
+    object-fit: cover;
+    border-radius: 50%;
+    border: 18px solid #ff0000;
+}
+.year-spacial {
+    align-items: center;
+}
+.year {
+    color: #FF0000;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.year-description {
+    color: cadetblue;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.new-year-photo {
+    
+    width: 40px;
+    height: 40px;
+    /* top: 3343px;  */
+    /* left: 1184px; */
+
+}
+
+/* our-item-section */
+
 .the-best-gift {
     margin: 4707.07px 29px 16px 140px;
     color: #FF0000;
@@ -380,7 +470,6 @@ span {
     cursor: pointer;
     color: #fff;
     background-color: #FF0000;
-    font-size: ;
     box-sizing: border-box;
     
     font-family: Inter;
@@ -409,6 +498,7 @@ span {
     padding: 0 ;
     max-width: 100%;
     background-color: #050505;
+    font-family: Inter;
 }
 .footer-lines {
     display: flex;
@@ -426,14 +516,19 @@ span {
 
 }
 .number {
-    display: inline;
+    display: block;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 50;
+    line-height: 1px;
+    letter-spacing: 0em;
+    text-align: inline;
+
+
 }
 .number>img {
     width: 24px;
     height: 24px;
-    /* top: 6854.07px;
-    left: 1074px; */
-
 }
 .website {
     font-style: normal;
@@ -459,6 +554,7 @@ span {
 
 }
 .address {
+    padding: 140px;
     width: 375px;
     height: 80px;
     top: 6846.07px;
@@ -485,7 +581,8 @@ hr:hover {
 }
 
 .social-container {
-    margin: 25px auto;
+    cursor: pointer;
+    margin: 45px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -504,7 +601,7 @@ hr:hover {
 }
 .last-footer {
     margin: 0 auto;
-    padding: 40px;
+    padding: 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -512,7 +609,6 @@ hr:hover {
 
 }
 .Unsubscribe {
-;
     color: #fff;
     background-color: #000000;
     border: none;
