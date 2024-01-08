@@ -341,7 +341,6 @@ span {
     align-items: center;
     text-align: center;
     overflow: hidden;
-    gap: ;
 
     
 }
@@ -361,12 +360,6 @@ span {
     max-width: 800px;
     margin: 20px auto;
 
-    /* border-radius: 50px; */
-    /* border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; */
-    
-
-
 }
 #form-container  input {
     border: none;
@@ -374,7 +367,6 @@ span {
     width: 438px;
     height: 42px;
     font-size: 18px;
-    /* border-start-end-radius: 30px 60px ; */
     box-sizing: border-box;
     border-radius: 10px 0 0 10px ;
 
@@ -410,25 +402,37 @@ span {
 .email-button {
 }
 
+/* footer-section */
+
+.footer-items {
+    margin: 0 ;
+    padding: 0 ;
+    max-width: 100%;
+    background-color: #050505;
+}
 .footer-lines {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 ;
+    /* margin: 0 ;
     padding: 0 ;
-    max-width: 100%;
+    max-width: 100%; */
     background-color: #050505;
     color: #fff;
     /* width: 1600px;
     height: 609px;
     top: 6726.07px; */
+    
 
+}
+.number {
+    display: inline;
 }
 .number>img {
     width: 24px;
     height: 24px;
-    top: 6854.07px;
-    left: 1074px;
+    /* top: 6854.07px;
+    left: 1074px; */
 
 }
 .website {
@@ -456,27 +460,44 @@ hr {
     border: 1px;
 
     border: none;
-    height: 2px; /* Adjust the height of the horizontal rule */
-    background-color: #000; /* Default color */
-    margin: 20px 0; /* Add some spacing above and below the horizontal rule */
-    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+    height: 2px; 
+    background-color: #000;
+    margin: 20px 0; 
+    transition: background-color 0.3s;
 }
 
 hr:hover {
-    background-color: #3498db; /* Color to change to on hover */
+    background-color: #3498db; 
 }
 
-.photo-container {
+.social-container {
+    margin: 25px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust the height as needed */
+    /* height: 100vh; */
 }
 
-.photo {
-    width: 50px; /* Adjust the width of each photo */
-    height: 50px; /* Adjust the height of each photo */
-    margin: 0 5px; /* Adjust the margin between photos */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    border-radius: 5px; /* Optional: Add rounded corners to the photos */
+.icon {
+    width: 50px; 
+    height: 50px;
+    margin: 0 5px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+.footer-items>p {
+    color: #fff;
+}
+.last-footer {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+}
+.Unsubscribe {
+    color: #fff;
+    background-color: #000000;
+    border: none;
 }
