@@ -24,6 +24,7 @@ header {
     justify-content: center;
     border-radius: 16px;
     align-items: center;
+    background-size: cover;
     /* background: linear-gradient(#070211, #07021100); */
 }
 
@@ -269,6 +270,59 @@ span {
 
 
 }
-.photo {
+/* .photo {
+    margin:140px ;
+    width: 1320px;
+    height: 924px;
+    display: flex;
+    flex-wrap: wrap;
+
     
+
+
 }
+.photo img {
+    width: 67%;
+    height: 450px;
+ }
+ .photo-container1 {
+    display: flex;
+    justify-content: space-between;
+} */
+
+    /* max-width: 800px; Adjust the maximum width as needed */
+    /* margin: 0 auto; Center the container */
+
+/* .photo-container2 {
+    display: flex;
+    justify-content: space-between;
+
+} */
+  
+    
+
+
+/* .photo-column1 {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+} */
+
+.photo-grid{
+
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px; 
+}
+
+.photo {
+    border: #070211;
+    box-shadow: #070211;
+    cursor: pointer;
+    margin: 48px 140px;
+    width: 82.5%;
+    height: auto;
+    border-radius: 16px;
+}
+.photo img:hover {}
