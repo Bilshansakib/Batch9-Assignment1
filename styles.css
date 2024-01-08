@@ -248,8 +248,10 @@ span {
 
 /* NEW-BEST-OFFER-section */
 .new-best-offer-section {
-    margin: 140px;
-    max-width: 1600px;
+    margin: 140px 140px ;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 463px;
     display: flex;
     background-color: #ffffff;
     align-items: center;
@@ -312,6 +314,11 @@ span {
     text-align: left;
 
 }
+.year-spacial {
+    width: 260px;
+    height: 260px;
+
+}
 .year-description {
     color: cadetblue;
     font-family: Inter;
@@ -323,18 +330,58 @@ span {
 
 }
 .new-year-photo {
-    
+    display: flex;
     width: 40px;
     height: 40px;
-    /* top: 3343px;  */
-    /* left: 1184px; */
+    top: 3343px; 
+    left: 1184px;
 
 }
+/* Holiday-sale-section */
+.WHAT-IS-FUNCTIONAL {
+    margin: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-items: center;
+    text-align: center;
+}
+.holiday-sale {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: center;
 
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.sale-description {
+    margin: 28px 80px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+/* ad-section */
+.ad-section {
+}
 /* our-item-section */
 
 .the-best-gift {
-    margin: 4707.07px 29px 16px 140px;
+    margin: 140px 29px 16px 140px;
     color: #FF0000;
     font-family: Inter;
     font-size: 24px;
@@ -360,43 +407,6 @@ span {
 
 
 }
-/* .photo {
-    margin:140px ;
-    width: 1320px;
-    height: 924px;
-    display: flex;
-    flex-wrap: wrap;
-
-    
-
-
-}
-.photo img {
-    width: 67%;
-    height: 450px;
- }
- .photo-container1 {
-    display: flex;
-    justify-content: space-between;
-} */
-
-    /* max-width: 800px; Adjust the maximum width as needed */
-    /* margin: 0 auto; Center the container */
-
-/* .photo-container2 {
-    display: flex;
-    justify-content: space-between;
-
-} */
-  
-    
-
-
-/* .photo-column1 {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-} */
 
 .photo-grid{
 
@@ -416,6 +426,8 @@ span {
     
 
 }
+
+
 /* subscribe-section */
 
 
@@ -448,7 +460,7 @@ span {
 }
 #form-container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px -5px;
 
 }
 #form-container  input {
@@ -459,10 +471,6 @@ span {
     font-size: 18px;
     box-sizing: border-box;
     border-radius: 10px 0 0 10px ;
-
-
-    /* flex-grow: 1; */
-    
 }
 
 .subscribe-button {
@@ -489,6 +497,7 @@ span {
 
 }
 .email-button {
+    margin: -5px -5px;
 }
 
 /* footer-section */
