@@ -108,11 +108,12 @@ img {
 }
 .welcome {
     font-family: Inter;
-    font-size: 20px;
+    /* font-size: 20px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 24px; */
     letter-spacing: 0em;
-    text-align: left;
+    /* text-align: left; */
+    color: #fff;
 
 }
 .welcome-title {
@@ -137,9 +138,9 @@ img {
     /* background: linear-gradient(#690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC); */
     max-width: 319.83px ;
     height: 464.66px ;
-    top: 1764.11px ;
+    /* top: 1764.11px ;
     left: 1002.17px ;
-    padding: 0.01px, 0px, 0px, 0px ;
+    padding: 0.01px, 0px, 0px, 0px ; */
 
 }
 .invitation .banner-img img {
@@ -148,16 +149,93 @@ img {
     vertical-align: middle;
 }
 button:hover{
-    background-color: hsl(29, 82%, 56%);
+    color: #fff;
     cursor: pointer;
     transition: all 1s;
 }
 .join-now {
+    margin: 48px 562px 0px 32px;
+    width: 103px;
+    height: 24px;
+    top: 2130px;
+    left: 298px;
+    background: none;
+    color: #fff;
+    font-family: Inter;
+    text-align: center;
+    font-size: large;
+
+
+
+    /* padding: 0 auto;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
+    /* font-weight: 700; */
+    /* line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
     color: #fff;
+    text-decoration: none;
+    border: none; */
+}
+.schedule {
+    display: auto;
+    height: 100vh;
+    /* justify-content: center; */
+    background: linear-gradient(to top,#f57777, #FF000000);
+
+
+    margin: 140px;
+    height: 482px;
+    /* align-items: center; */
+    text-align: center;
+    font-family: Inter;
+
+}
+.schedule-list {
+    
+    /* align-items: center; */
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+
+    /* width: 549px ;
+    height: 168px ;
+    top: 2516px ;
+    left: 525px ; */
+
+}
+span {
+    color: red;
+}
+.button {
+    margin: 25px;
+    width: Hug (167px);
+    height: Hug (56px);
+    top: 2732px;
+    left: 716px;
+    padding: 16px, 32px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #FF0000;
+    justify-content: center;
+    
+
+}
+.button {
+
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: #fff;
+    background-color: #FF0000;
+    margin: 316px, 577px, 110px, 576px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 8px;
+    gap: 10px;
+    text-align: center;
+
 }
