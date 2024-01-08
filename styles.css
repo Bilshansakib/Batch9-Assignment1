@@ -330,7 +330,7 @@ span {
 
 
 .subscribe-section {
-    margin: 140px;
+    margin: 140px 140px 100px 140px;
     background-color: #f57777;
     border-radius: 18px;
 }
@@ -408,5 +408,75 @@ span {
 
 }
 .email-button {
-    display: inline-block;
+}
+
+.footer-lines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 ;
+    padding: 0 ;
+    max-width: 100%;
+    background-color: #050505;
+    color: #fff;
+    /* width: 1600px;
+    height: 609px;
+    top: 6726.07px; */
+
+}
+.number>img {
+    width: 24px;
+    height: 24px;
+    top: 6854.07px;
+    left: 1074px;
+
+}
+.website {
+    font-style: normal;
+    width: 24px;
+    height: 24px;
+    top: 6894.07px;
+    left: 1074px;
+
+}
+.address {
+    width: 375px;
+    height: 80px;
+    top: 6846.07px;
+    left: 140px;
+
+}
+.contacts {
+}
+
+hr {
+    width: 1320px;
+    top: 6976.07px;
+    left: 140px;
+    border: 1px;
+
+    border: none;
+    height: 2px; /* Adjust the height of the horizontal rule */
+    background-color: #000; /* Default color */
+    margin: 20px 0; /* Add some spacing above and below the horizontal rule */
+    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+}
+
+hr:hover {
+    background-color: #3498db; /* Color to change to on hover */
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.photo {
+    width: 50px; /* Adjust the width of each photo */
+    height: 50px; /* Adjust the height of each photo */
+    margin: 0 5px; /* Adjust the margin between photos */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 5px; /* Optional: Add rounded corners to the photos */
 }
