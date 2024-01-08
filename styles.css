@@ -442,6 +442,21 @@ span {
     top: 6894.07px;
     left: 1074px;
 
+
+}
+.website-link {
+    width: 211px;
+    height: 40px;
+    top: 6886.07px;
+    left: 1114px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
 }
 .address {
     width: 375px;
@@ -451,19 +466,18 @@ span {
 
 }
 .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 hr {
-    width: 1320px;
-    top: 6976.07px;
-    left: 140px;
     border: 1px;
-
     border: none;
     height: 2px; 
     background-color: #000;
     margin: 20px 0; 
-    transition: background-color 0.3s;
+    transition: background-color 0.05s;
 }
 
 hr:hover {
@@ -489,6 +503,7 @@ hr:hover {
     color: #fff;
 }
 .last-footer {
+    margin: 0 auto;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -497,6 +512,7 @@ hr:hover {
 
 }
 .Unsubscribe {
+;
     color: #fff;
     background-color: #000000;
     border: none;
