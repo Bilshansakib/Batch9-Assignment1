@@ -65,6 +65,7 @@ header {
 
 }
 .off {
+    font-family: inter;
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
@@ -460,7 +461,7 @@ span {
 }
 #form-container {
     max-width: 800px;
-    margin: 20px -5px;
+    margin: 20px auto;
 
 }
 #form-container  input {
