@@ -383,7 +383,51 @@ span {
 }
 /* ad-section */
 .ad-section {
+    margin: 20px 140px;
+    display: flex;
+    max-width: 1320px;
 }
+.ads {
+}
+
+.ads-container1 {
+    margin: auto;
+    width: 206.84px;
+    height: 206.84px;
+    top: 125.47px;
+    left: 9.17px;
+
+
+}
+.ads-container2 {
+    margin: 140px auto;   
+    width: 1320px;
+    height: 229px;
+    top: 4358px;
+    left: 140px;
+    border-radius: 16px, 0px, 16px, 16px;
+
+}
+.ads-container3 {
+    margin: auto;
+    width: 206.84px;
+    height: 206.84px;
+    top: 125.47px;
+    left: 9.17px;
+    angle: 34.21 deg;
+
+}
+.ads-container4 {
+    margin: auto;
+    width: 429px;
+    height: 433px;
+    top: 3925px;
+    left: 1031px;
+    border-radius: 16px, 16px, 0px, 0px;
+
+}
+
+
 /* our-item-section */
 
 .the-best-gift {
@@ -480,7 +524,6 @@ span {
 }
 
 .subscribe-button {
-    margin: -100px;
     border: none;
     cursor: pointer;
     color: #fff;
@@ -517,7 +560,7 @@ span {
     font-family: Inter;
 }
 .footer-lines {
-    display: flex;
+    display: flex;git
     justify-content: space-between;
     align-items: center;
     /* margin: 0 ;
@@ -532,33 +575,41 @@ span {
 
 }
 .number {
-    margin: auto;
+    margin: 0 40px;
     display: flex;
-    font-family: me;
+    align-items: center;
+    text-align: center;
+    font-family: 'inter';
     font-size: 24px;
     font-weight: 50;
     line-height: 1px;
     letter-spacing: 0em;
-    text-align: left; 
 
 }
-p>img {
+.number>img {
     width: 24px;
     height: 24px;
     top: 6894.07px;
     left: 1074px;
 
 }
-text {
-    font-family: 'inter';
-    width: 24px;
-    height: 24px;
-    top: 6894.07px;
-    left: 1074px;
+.dial-number {
+    /* display: flex; */
+    width: 195px;
+    height: 40px;
+    top: 6846.07px;
+    left: 1114px;
+
+}
+.web-site-link {
+    width: 211px;
+    height: 40px;
+    top: 6886.07px;
+    left: 1114px;
 
 }
 .website {
-    font-style: normal;
+    font-style: 'inter';
     width: 24px;
     height: 24px;
     top: 6894.07px;
