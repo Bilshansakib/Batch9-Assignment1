@@ -10,6 +10,7 @@
 }
 
 header {
+
 }
 
 .banner {
@@ -37,6 +38,10 @@ header {
     justify-content: center;
     align-items: center;
     /* margin: ; */
+
+}
+.banner-content:hover {
+    color: silver;
 
 }
 .title {
@@ -306,7 +311,7 @@ span {
     border: 18px solid #ff0000;
 }
 .year-spacial {
-    display: flex;
+    display: block;
     align-items: center;
 
 }
@@ -321,8 +326,9 @@ span {
 
 }
 .year-spacial {
-    width: 260px;
-    height: 260px;
+    align-items: center;
+    max-width: 1600px;
+    height: 462px;
 
 }
 .year-description {
@@ -336,12 +342,8 @@ span {
 
 }
 .new-year-photo {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    top: 3343px; 
-    left: 1184px;
-
+    width: 140px;
+    height: 140px;
 }
 /* Holiday-sale-section */
 .WHAT-IS-FUNCTIONAL {
@@ -560,7 +562,7 @@ span {
     font-family: Inter;
 }
 .footer-lines {
-    display: flex;git
+    display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin: 0 ;
