@@ -40,7 +40,7 @@ header {
 
 }
 .title {
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
@@ -48,7 +48,7 @@ header {
 
 }
 .title-details {
-    font-family: Merriweather;
+    font-family:' Merriweather';
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -60,12 +60,12 @@ header {
     margin: 120px auto;
     letter-spacing: 0em;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter';
     /* gap: 120px; */
 
 }
 .off {
-    font-family: inter;
+    font-family: 'inter';
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
@@ -112,7 +112,7 @@ img {
     align-items: center;
 }
 .welcome {
-    font-family: Inter;
+    font-family: 'Inter';
     /* font-size: 20px;
     font-weight: 700;
     line-height: 24px; */
@@ -122,7 +122,7 @@ img {
 
 }
 .welcome-title {
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -131,7 +131,7 @@ img {
 
 }
 .welcome-description {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -167,7 +167,7 @@ button:hover{
     left: 298px;
     background: none;
     color: #fff;
-    font-family: Inter;
+    font-family: 'Inter';
     text-align: center;
     font-size: large;
 
@@ -195,9 +195,10 @@ button:hover{
     height: 482px;
     /* align-items: center; */
     text-align: center;
-    font-family: Inter;
+    font-family: I'nter';
 
 }
+
 .schedule-list {
     
     /* align-items: center; */
@@ -229,9 +230,11 @@ span {
     gap: 10px;
     background-color: #FF0000;
     justify-content: center;
+
     
 
 }
+
 .button {
 
     width: 167px;
@@ -249,7 +252,7 @@ span {
 
 /* NEW-BEST-OFFER-section */
 .new-best-offer-section {
-    margin: 140px 140px ;
+    margin: 140px 40px ;
     width: 82.5%;
     max-width: 1320px;
     height: 463px;
@@ -268,7 +271,7 @@ span {
     color: #FF0000;
 }
 .coming-soon {
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
@@ -277,7 +280,7 @@ span {
 
 }
 .new-offer-description {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -303,11 +306,13 @@ span {
     border: 18px solid #ff0000;
 }
 .year-spacial {
+    display: flex;
     align-items: center;
+
 }
 .year {
     color: #FF0000;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -322,7 +327,7 @@ span {
 }
 .year-description {
     color: cadetblue;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -342,7 +347,7 @@ span {
 .WHAT-IS-FUNCTIONAL {
     margin: 10px;
     color: #000;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
@@ -358,7 +363,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
 
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 72px;
     font-weight: 700;
     line-height: 87px;
@@ -368,7 +373,7 @@ span {
 }
 .sale-description {
     margin: 28px 80px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -384,7 +389,7 @@ span {
 .the-best-gift {
     margin: 140px 29px 16px 140px;
     color: #FF0000;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
@@ -452,7 +457,7 @@ span {
     height: 150px;
 }
 .subscribe-description {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -475,13 +480,14 @@ span {
 }
 
 .subscribe-button {
+    margin: -100px;
     border: none;
     cursor: pointer;
     color: #fff;
     background-color: #FF0000;
     box-sizing: border-box;
     
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -498,7 +504,7 @@ span {
 
 }
 .email-button {
-    margin: -5px -5px;
+    margin: -15px -5px;
 }
 
 /* footer-section */
@@ -526,19 +532,30 @@ span {
 
 }
 .number {
-    display: block;
-    font-family: Inter;
+    margin: auto;
+    display: flex;
+    font-family: me;
     font-size: 24px;
     font-weight: 50;
     line-height: 1px;
     letter-spacing: 0em;
-    text-align: inline;
-
+    text-align: left; 
 
 }
-.number>img {
+p>img {
     width: 24px;
     height: 24px;
+    top: 6894.07px;
+    left: 1074px;
+
+}
+text {
+    font-family: 'inter';
+    width: 24px;
+    height: 24px;
+    top: 6894.07px;
+    left: 1074px;
+
 }
 .website {
     font-style: normal;
@@ -554,7 +571,7 @@ span {
     height: 40px;
     top: 6886.07px;
     left: 1114px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
@@ -572,7 +589,6 @@ span {
 
 }
 .contacts {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -622,4 +638,9 @@ hr:hover {
     color: #fff;
     background-color: #000000;
     border: none;
+    width: 145px;
+    height: 29px;
+    top: 7186.07px;
+    left: 1315px;
+
 }
